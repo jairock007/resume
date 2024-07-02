@@ -3,6 +3,9 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue; 
 }
 
 h1 {
@@ -27,9 +30,6 @@ main {
     display: grid;
     grid-template-columns: 40% 60%;
     margin-top: 3em;
-    width: 300px;
-    height: 100px;
-    border: 1px solid blue; 
 }
 
 header {
