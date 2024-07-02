@@ -33,6 +33,11 @@ header {
     margin: auto 2em;
 }
 
+header h1 {
+    text-align: center;
+    letter-spacing: .4em;
+}
+
 section {
     margin: auto 1em 4em 2em;
 }
