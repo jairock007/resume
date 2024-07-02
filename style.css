@@ -36,6 +36,7 @@ header {
 header h1 {
     text-align: center;
     letter-spacing: .4em;
+    font-weight: 500;
 }
 
 section {
