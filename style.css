@@ -27,7 +27,6 @@ main {
     display: grid;
     grid-template-columns: 40% 60%;
     margin-top: 3em;
-    box-shadow: 10px 10px 5px 12px lightblue;
 }
 
 header {
