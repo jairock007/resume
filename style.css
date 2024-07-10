@@ -3,8 +3,23 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
-    background-color: wheat;
+    background-color: rgb(219, 202, 172);
     padding: 0 1em;
+    transition: background-color 0.3s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body:hover {
+    background-color: #f5deb3;
 }
 
 h1 {
@@ -13,16 +28,45 @@ h1 {
     font-weight: 800;
     padding-top: 1em;
     padding-bottom: 1em;
+    transition: color 0.3s ease-in-out;
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1:hover {
+    color: #d2691e;
 }
 
 h2 {
     font-size: 1.5em;
     padding-bottom: 1em;
+    transition: color 0.3s ease-in-out;
+    animation: slideIn 1.2s ease-in-out;
+}
+
+h2:hover {
+    color: #d2691e;
 }
 
 h3 {
     font-size: 1em;
     padding-bottom: 1em;
+    transition: color 0.3s ease-in-out;
+    animation: slideIn 1.4s ease-in-out;
+}
+
+h3:hover {
+    color: #d2691e;
 }
 
 header {
@@ -35,10 +79,23 @@ main {
     grid-template-columns: 1fr;
     gap: 2em;
     margin-top: 3em;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+main:hover {
+    transform: scale(1.02);
 }
 
 section {
     margin: 1em 0;
+    padding: 1em;
+    transition: background-color 0.3s ease-in-out;
+    animation: fadeIn 1.7s ease-in-out;
+}
+
+section:hover {
+    background-color: #ffe4b5;
 }
 
 i {
@@ -47,12 +104,19 @@ i {
 
 p {
     margin: .2em auto;
+    transition: color 0.3s ease-in-out;
+    animation: fadeIn 1.9s ease-in-out;
+}
+
+p:hover {
+    color: #8b4513;
 }
 
 hr {
     border: none;
     background-color: black;
     height: 1px;
+    animation: fadeIn 2.1s ease-in-out;
 }
 
 h1, h2, h3 {
@@ -63,6 +127,12 @@ h1, h2, h3 {
 #mainLeft, #mainRight {
     border: 1px solid black;
     padding: 1em;
+    transition: border-color 0.3s ease-in-out;
+    animation: fadeIn 2.3s ease-in-out;
+}
+
+#mainLeft:hover, #mainRight:hover {
+    border-color: #8b4513;
 }
 
 @media (min-width: 768px) {
