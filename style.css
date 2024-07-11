@@ -1,6 +1,6 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
+    font-family: Cursive;
+    font-size: 17px;
     max-width: 960px;
     margin: auto;
     background-color: rgb(219, 202, 172);
@@ -19,7 +19,7 @@ body {
 }
 
 body:hover {
-    background-color: #f5deb3;
+    background-color: #2edd2e;
 }
 
 h1 {
