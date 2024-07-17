@@ -3,7 +3,7 @@ body {
     font-size: 17px;
     max-width: 960px;
     margin: auto;
-    background-color: rgb(219, 202, 172);
+    background-color: rgb(223, 184, 117);
     padding: 0 1em;
     transition: background-color 0.3s ease-in-out;
     animation: fadeIn 1s ease-in-out;
@@ -18,9 +18,9 @@ body {
     }
 }
 
-body:hover {
-    background-color: skyblue;
-}
+/* body:hover {
+    background-color: rgb(215, 198, 164);
+} */
 
 h1 {
     font-size: 3em;
@@ -43,9 +43,9 @@ h1 {
     }
 }
 
-h1:hover {
+/* h1:hover , header{
     color: #d2691e;
-}
+} */
 
 h2 {
     font-size: 1.5em;
